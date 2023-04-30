@@ -51,9 +51,11 @@ body{
     position: absolute;
     transform: rotateX(90deg);
     transition: all 0.3s;
+    opacity: 0;
 }
 .card:hover .text{
     transform: rotateX(0deg) translateZ(150px);
+    opacity: 1;
 }
 .c2{
     background: linear-gradient(to bottom, #000, #2a006400);
